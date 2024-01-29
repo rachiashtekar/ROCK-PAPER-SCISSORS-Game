@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #8cc461;
+}
+.container {
+  /* border: 2px solid red; */
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+#Vector {
+  position: absolute;
+  top: 150px;
+  left: 620px;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+#stars {
+  padding: 20px;
+}
+.text1 {
+  height: 100px;
+  width: 550px;
+  color: white;
+  margin-left: 550px;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 400px;
+}
+#para1 {
+  font-weight: 600;
+  font-size: 91px;
+  line-height: 106.64px;
+  letter-spacing: 20%;
+  font-family: "Roboto", sans-serif;
+}
+.text2 {
+  height: 100px;
+  width: 550px;
+  color: white;
+  margin-left: 550px;
+  position: absolute;
+  top: 500px;
+  /* border: 2px solid red; */
+}
+#para2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 48.05px;
+}
+#playagainbtn {
+  color: #6b6b6b;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  line-height: 17.58px;
+  letter-spacing: 10%;
+  align-items: center;
+  text-decoration: none;
+}
+#btn {
+  text-decoration: none;
+}
+.lastbutton {
+  height: 50px;
+  width: 150px;
+  /* border: 2px solid red; */
+  position: absolute;
+  margin-left: 670px;
+  top: 570px;
+  background: white;
+  border-radius: 9px;
+  padding: 15px;
+  padding-left: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+.Rules {
+  border: 7px solid white;
+  height: 350px;
+  width: 300px;
+  background: #004429;
+  position: absolute;
+  top: 300px;
+  left: 75%;
+  border-radius: 13px;
+  box-sizing: border-box;
+}
+
+.rulesheading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  color: white;
+  line-height: 33.98px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.gamelist {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  padding: 15px;
+  line-height: 15.23px;
+  font-weight: 400;
+}
+.unorderlist {
+  list-style-type: square;
+
+  margin-left: 30px;
+}
+li::marker {
+  color: #ffd600;
+  font-size: 20px;
+}
+#closebutton {
+  font-family: "Dangrek", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13%;
+}
+.close {
+  height: 65px;
+  width: 65px;
+  background: #ff0000;
+  border: 5px solid white;
+  color: white;
+  border-radius: 50%;
+  line-height: 79.49px;
+  position: absolute;
+  left: 250px;
+  top: -2rem;
+  padding-bottom: 10px;
+}
+.Rulesbutton {
+  height: 40px;
+  width: 119px;
+  border: 2px solid white;
+  position: absolute;
+  left: 89%;
+  top: 660px;
+  justify-content: center;
+  border-radius: 10px;
+}
+#ruleshow {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24.61px;
+  letter-spacing: 10%;
+  color: #ffff;
+  text-align: center;
+  align-items: center;
+  padding: 5%;
+}
